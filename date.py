@@ -7,4 +7,3 @@ date_list = [base - datetime.timedelta(days=x) for x in range(0, numdays)]
 
 print(date_list[0].strftime('%Y%m%d') + 'a')
 
-x =1
